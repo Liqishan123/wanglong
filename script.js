@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         万龙觉醒自动采集脚本
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  自动采集《万龙觉醒》手机版中的资源
 // @author       YourName
 // @match        *://*/*
@@ -34,7 +34,7 @@
 
             // 等待采集按钮出现
             setTimeout(() => {
-                const collectButton = document.querySelector(COLLECT_BUTTON_SELECTOR);
+                const collectButton = node.querySelector(COLLECT_BUTTON_SELECTOR);
                 if (collectButton) {
                     console.log('点击采集按钮');
                     collectButton.click();
