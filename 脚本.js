@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         万龙觉醒自动采集脚本
+// @name         万龙觉醒H5GG自动采集脚本
 // @namespace    http://tampermonkey.net/
-// @version      1.1
-// @description  自动采集《万龙觉醒》手机版中的资源
-// @author       YourName
+// @version      1.0
+// @description  自动采集《万龙觉醒》H5GG版中的资源
+// @author       Liqishan123
 // @match        *://*/*
 // @grant        none
 // ==/UserScript==

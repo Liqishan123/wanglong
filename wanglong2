@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.1
 // @description  自动采集《万龙觉醒》手机版中的资源
-// @author       YourName
+// @author       Liqishan123
 // @match        *://*/*
 // @grant        none
 // ==/UserScript==
